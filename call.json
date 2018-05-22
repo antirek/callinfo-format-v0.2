@@ -1,0 +1,68 @@
+{
+  "version": "0.2",
+  "server": "node01",
+  "account": "00000000003243293290",
+  "time": "2018-05-22 10:41:48",
+  "timezone": "+7 UTC",
+  "uuid": "345784357-eture-345-43543-45435435",
+  "direction": "incoming",
+  "from": "89135292926",
+  "fromChannel": "SIP/CoolOperator",
+  "to": "3912745000",
+  "toChannel": "internal",
+  "duration": "300",
+  "billsec": "121",
+  "record": "1",
+  "recordUrl": "https://example.com/record/record1/345784357-eture-345-43543-45435435/",
+  "answered": "1",
+  "cause": "16",
+  "level1": {
+    "caller": {
+      "type": "external",
+      "name": "Sergey",
+      "number": "89135292926",
+      "region": {
+        "code": "24",
+        "title": "Krasnoyarskii krai",
+        "county": "5"
+      },
+      "telco": {
+        "title": "MTS"
+      }
+    },
+    "route": [
+      {        
+        "object": {
+          "id": "3458473583459899438934598348943",
+          "type": "incoming",
+          "name": "3912745000",
+          "number": "3912745000"
+        },
+        "time": "2018-05-22 10:41:48"
+      }
+      {        
+        "object": {
+          "id": "3458473583459899438934598348943",
+          "type": "user",
+          "title": "John",
+          "number": "110"
+        },
+        "time": "2018-05-22 10:41:54"
+      }
+    ],
+    "callee": {
+      "type": "user",
+      "name": "John",
+      "number": "110"
+    },
+    "badges": [
+      "advertise",
+      "answered",
+      "record",
+      "crm"
+    ],
+    "recordFile": "/server1/mnt/records/345784357-eture-345-43543-45435435.mp3",
+    "dialstatus": "ANSWER",
+    "subs": []
+  }
+}
